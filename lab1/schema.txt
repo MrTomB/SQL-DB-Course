@@ -1,0 +1,29 @@
+Thomas Burch
+tburch1 (1314305)
+1/20/16
+CMPS 180_wt16
+Lab 1
+-------------------------------------------------------------
+
+Smith Video
+
+video(film_id, name, description, rating, release_year, length)
+key = film_id
+
+video_customer(video_customer_id, first_name, last_name, email_id, address_id)
+key = video_customer_id
+
+address(address_id, house_number, street, city, state, postal_code, phone_number)
+key = address_id
+
+
+Smith Book
+
+book(book_id, title, author_id, edition, publisher)
+key = book_id
+
+book_author(author_first, author_last, author_id)
+key = author_id
+
+book_customer(book_customer_id, first_name, last_name, phone_number)
+key = book_customer_id
